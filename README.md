@@ -13,3 +13,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Creamos nuestro server
 
 en el archivo db.json cargamos toda la informacion
+
+## Creamos nuestro tolbar 
+
+Mediante el uso de Angular Material y se coloca en el template del componente header (header.componet.ts)
+
+## Creamos rutas 
+
+Utilizando 
