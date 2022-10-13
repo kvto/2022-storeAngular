@@ -1,9 +1,16 @@
 import {NgModule} from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { KevincodeComponent } from './pages/kevincode/kevincode.component';
 
 const routes: Routes = [
-    { path: 'kevincode', component: KevincodeComponent}
+    
+    { path: 'products', 
+    loadChildren: () => import('./pages/products/products.module').then(m => m.ProductsModule) 
+    },
+    { 
+        path: '**', 
+        redirectTo: '',
+        pathMatch: 'full'
+    }
 ];
 
 @NgModule({

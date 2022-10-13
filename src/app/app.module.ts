@@ -5,14 +5,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { KevincodeComponent } from './pages/kevincode/kevincode.component';
 import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    KevincodeComponent,
   ],
   imports: [
     BrowserModule,
@@ -20,7 +19,7 @@ import { RouterModule } from '@angular/router';
     MaterialModule,
     BrowserAnimationsModule,
     RouterModule,
-    
+    AppRoutingModule,    
   ],
   exports: [RouterModule],
   providers: [],
