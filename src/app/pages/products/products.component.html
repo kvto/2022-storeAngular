@@ -1,13 +1,3 @@
 <section class="products">
-<mat-card class="card">
-    <mat-card-header>
-        Header
-    </mat-card-header>
-    <mat-card-content>
-        Contenido
-    </mat-card-content>
-    <mat-card-actions>
-        Actions
-    </mat-card-actions>
-</mat-card>
+<app-product [product]="product" *ngFor="let product of products"></app-product>
 </section>
