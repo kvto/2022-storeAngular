@@ -8,10 +8,12 @@ import { MaterialModule } from './material.module';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
+import { CartComponent } from './shared/components/cart/cart.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,8 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserAnimationsModule,
     RouterModule,
     AppRoutingModule,   
-    HttpClientModule 
+    HttpClientModule,
+
   ],
   exports: [RouterModule],
   providers: [],
