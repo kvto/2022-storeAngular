@@ -6,6 +6,10 @@ import { CheckoutComponent } from './checkout.component';
 import { FormsModule } from '@angular/forms';
 import { MaterialModule } from 'src/app/material.module';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSelectModule} from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
+
 
 
 @NgModule({
@@ -17,7 +21,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     CheckoutRoutingModule,
     FormsModule,
     MaterialModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatRadioModule,
+    MatSelectModule,
+    MatInputModule
   ]
 })
 export class CheckoutModule { }
