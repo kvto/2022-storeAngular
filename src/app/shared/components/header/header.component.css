@@ -8,5 +8,12 @@ a{
 }
 
 .cart{
-    margin-left: 150%;
+    margin-left:80%;
+    
+}
+
+.cart:hover{
+    background-color: rgb(4,172,194);
+    cursor: pointer;
+    transition: all 0.7 ease-in-out;
 }

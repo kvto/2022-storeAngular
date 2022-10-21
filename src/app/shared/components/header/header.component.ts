@@ -18,6 +18,6 @@ export class HeaderComponent {
 constructor(private router:Router){}
 
 goToCheckout():void{
-this.router.navigate(['/chechout']);
+this.router.navigate(['/checkout']);
 }
 }
