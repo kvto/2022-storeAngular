@@ -13,9 +13,10 @@
           Name is required
         </mat-error>
       </mat-form-field>
+      {{isDelivery}} - isDelivery?
       <mat-radio-group class="form__element">
         <p>Choose an option:</p>
-        <mat-radio-button value="pickup" (change)="onPickupOnDelivery(false)"
+        <mat-radio-button value="pickup" (change)="onPickupOnDelivery(false)" checked
           >Pickup</mat-radio-button
         >
         <mat-radio-button
@@ -26,6 +27,7 @@
           Delivery
         </mat-radio-button>
       </mat-radio-group>
+      <ng-container *ngIf="isDelivery; else showStore">
         <mat-form-field class="form__element">
           <input
             matInput
@@ -44,7 +46,8 @@
             #city="ngModel"
           />
         </mat-form-field>
-
+      </ng-container>
+      <ng-template #showStore>
         <mat-form-field class="form__element">
           <mat-label>Select me</mat-label>
           <mat-select name="store" #store="ngModel" [(ngModel)]="model.store">
@@ -53,11 +56,12 @@
             </mat-option>
           </mat-select>
         </mat-form-field>
+      </ng-template>
     </form>
   </div>
   <app-details></app-details>
   <div class="container__button">
-    <button [disabled]=""
+    <button [disabled]="!checkoutForm.form.valid"
     mat-raised-button
     color="primary"
     type="submit">
