@@ -8,7 +8,7 @@ import { Product } from "src/app/pages/products/product/interfaces/product.inter
 )
 
 export class ShoppingCartService {
-    products: Product[] = []
+    products: Product[] = [];
 
     private cartSubject = new BehaviorSubject<Product[]>([]);
     private totalSubject = new BehaviorSubject<number>(0);

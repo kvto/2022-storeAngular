@@ -64,7 +64,8 @@
     <button [disabled]="!checkoutForm.form.valid"
     mat-raised-button
     color="primary"
-    type="submit">
+    type="submit"
+    (click)="onSubmit(checkoutForm)">
     Checkout
     </button>
   </div>
