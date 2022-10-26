@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from './../../shared/services/data.service';
-import { tap, switchMap } from 'rxjs';
+import { delay, tap, switchMap } from 'rxjs';
 import { Store } from './../../shared/interfaces/store.interface';
 import { NgForm } from '@angular/forms';
 import { Details } from 'src/app/shared/interfaces/order.interface';
@@ -57,6 +57,8 @@ this.isDelivery = value }
         return this.dataSvc.saveDetailsOrder({ details, orderId });
       }),
       tap( () => this.router.navigate(['/checkout/thank-you-page'])),
+      delay(2000),
+      tap( () => this.shoppingCartSvc.resetCar())
     ).subscribe()
  }
 
