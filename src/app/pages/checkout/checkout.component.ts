@@ -48,7 +48,7 @@ this.isDelivery = value }
     const data = {
       ...formData,
       date: this.getCurrenteDay(), 
-      pickup: this.isDelivery,
+      isDelivery: this.isDelivery,
     }
     this.dataSvc.saveOrder(data).pipe(
       tap( res => console.log(res)),
