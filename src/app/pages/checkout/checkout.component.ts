@@ -56,7 +56,7 @@ this.isDelivery = value }
         const details = this.prepareDEtails();
         return this.dataSvc.saveDetailsOrder({ details, orderId });
       }),
-      tap( () => this.router.navigate(['/thank-you-page'])),
+      tap( () => this.router.navigate(['/checkout/thank-you-page'])),
     ).subscribe()
  }
 
