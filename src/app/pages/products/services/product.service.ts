@@ -16,6 +16,6 @@ export class ProductService {
   
   updateStock(productId: number, stock: number): Observable<any>{
     const body = {"stock":stock}
-  return this.http.patch<any>(`${this.apiURL}/products/${productId}`, body);
+  return this.http.patch<any>(`${this.apiURL}/${productId}`, body);
   }
 }
