@@ -16,12 +16,12 @@
       {{isDelivery}} - isDelivery?
       <mat-radio-group class="form__element">
         <p>Choose an option:</p>
-        <mat-radio-button value="pickup" (change)="onPickupOnDelivery(false)" 
+        <mat-radio-button value="pickup" (change)="onPickupOrDelivery(false)" 
           >Pickup</mat-radio-button
         >
         <mat-radio-button
           value="delivery"
-          (change)="onPickupOnDelivery(true)", checked
+          (change)="onPickupOrDelivery(true)", checked
           checked
         >
           Delivery

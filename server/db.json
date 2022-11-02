@@ -39,7 +39,7 @@
     "categories": [
       {
         "id": 1,
-        "name": "Books"
+        "name": "Jabones"
       },
       {
         "id": 2,
@@ -53,25 +53,25 @@
     "products": [
       {
         "id": 1,
-        "name": "Essential TypeScript 4: From Beginner to Pro",
-        "price": 45,
-        "description": "Learn the essentials and more of TypeScript, a popular superset of the JavaScript language that adds support for static typing. TypeScript combines the typing features of C# or Java.",
+        "name": "Jabón de Hierbaluisa (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón de hierbaluisa tiene propiedades antiinflamatorias, relajantes, antisépticas y antibacterianas. Ayuda con los problemas de acné y las infecciones de la piel.",
         "categoryId": 1,
-        "stock": 0
+        "stock": 10
       },
       {
         "id": 2,
-        "name": "Hackeando el cerebro de tus compradores: PsychoGrowth",
-        "price": 5,
-        "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
+        "name": "Jabón de Arroz y Bergamota (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón de harina de arroz con bergamota. Es ideal para regenerar la piel, eliminar manchas, rejuvenece y embellece el cutis. A su vez, el aceite esencial de bergamota ayuda a eliminar el exceso de grasa y prevenir las arrugas.",
         "categoryId": 1,
         "stock": 10
       },
       {
         "id": 3,
-        "name": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
-        "price": 17,
-        "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
+        "name": "Jabón de Naranja y Zanahoria (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón de naranja y zanahoria ayuda a eliminar toxinas, mejora el colágeno en la piel, es antiséptico, antiespasmódico y antidepresivo. La zanahoria le brinda propiedades antioxidantes ya que contiene vitamina C, también minimiza los poros, reduce espinillas y brinda brillo a la piel.",
         "categoryId": 1,
         "stock": 10
       },
