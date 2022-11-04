@@ -9,3 +9,8 @@
 button{
     width: 100%;
 }
+
+button.mat-primary {
+    background: #8acfbc;
+    color: #fff;
+  }

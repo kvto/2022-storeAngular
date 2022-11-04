@@ -43,11 +43,11 @@
       },
       {
         "id": 2,
-        "name": "Electronics"
+        "name": "Shampoo"
       },
       {
         "id": 3,
-        "name": "Computers"
+        "name": "Acondicionadores"
       }
     ],
     "products": [
@@ -77,41 +77,105 @@
       },
       {
         "id": 4,
-        "name": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
-        "price": 19,
-        "description": "Ideal for Android smartphones and tablets, and MIL cameras. SanDisk Memory Zone app for easy file management (Download and Installation Required).",
-        "categoryId": 2,
+        "name": "Jabón de Manzanilla (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón de manzanilla es ideal para pieles sensibles y delicadas, contiene propiedades antiinflamatorias. Limpia, tonifica y suaviza. Ayuda con las enfermedades de la piel tales como psoriasis, rosácea, eczemas, acné y dermatitis. ",
+        "categoryId": 1,
         "stock": 10
       },
       {
         "id": 5,
-        "name": "GoPro HERO9 Black - Waterproof Action Camera with Front LCD",
-        "price": 399,
-        "description": "5K Video - Shoot stunning video with up to 5K resolution, perfect for maintaining detail even when zooming in",
-        "categoryId": 2,
+        "name": "Jabón de Maracuyá (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón de maracuyá contiene vitamina C lo cual ayuda a fortalecer la piel y aclararla, tiene propiedades antiinflamatorias, ayuda a controlar la grasa de la piel, hidrata y repara tejidos de la piel. Además, tiene propiedades tranquilizantes y desintoxicantes.",
+        "categoryId": 1,
         "stock": 10
       },
       {
         "id": 6,
-        "name": "CL3 Rated High-Speed 4K HDMI Cable - 6 Feet",
-        "price": 7,
-        "description": "HDMI A Male to A Male Cable: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)",
-        "categoryId": 2,
+        "name": "Jabón de Limón (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón de limón contiene propiedades refrescantes y astringentes, también es un buen suavizante y revitaliza la piel. Elimina el exceso de grasa en la piel y tiene propiedades antisépticas. El limón ayuda a limpiar, eliminar impurezas y a tener una piel hidratada al mismo tiempo.",
+        "categoryId": 1,
         "stock": 10
       },
       {
         "id": 7,
-        "name": "Logitech MK270 Wireless Keyboard and Mouse Combo",
-        "price": 32,
-        "description": "The USB receiver is conveniently located in the box, top flap. This wireless keyboard and mouse feature Logitech Advanced 2.4GHz technology with a range of up to 10 metres.",
-        "categoryId": 3,
+        "name": "Jabón de Café y Cacao (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón café y cacao es un excelente exfoliante, ayuda a estimular la circulación y combatir la celulitis. Por su parte la manteca de cacao da resistencia a la aparición de arrugas y tiene efectos protectores contra los rayos UV.",
+        "categoryId": 1,
         "stock": 10
       },
       {
         "id": 8,
-        "name": "External CD Drive USB 3.0 Portable CD DVD +/-RW Drive DVD/CD ROM",
-        "price": 20,
-        "description": "Plug & play. Easy to use,powered by USB port. No external driver and Power needed. Just plug it into your USB port and the DVD driver will be detected",
+        "name": "Jabón de Avena y Miel (80 gr)",
+        "price": 9,
+        "description": "Nuestro jabón avena y miel tiene propiedades calmantes, hidratantes y antisépticas. Es muy recomendable para pieles sensibles o con afectaciones como la psoriasis y resequedad. La combinación de estos dos ingredientes aporta propiedades como la regeneración de la piel y limpia los poros.",
+        "categoryId": 1,
+        "stock": 10
+      },
+      {
+        "id": 9,
+        "name": "Shampoo para cabello graso (80 gr)",
+        "price": 23,
+        "description": "Nuestro shampoo para cabello graso contiene aceites que fortalecen, limpian y nutren el cabello a profundidad. Además, evitan el exceso de grasa y combaten la caspa, evitan el frizz y reparan las puntas abiertas. Contiene aceite esencial de lavanda, que ayuda a reducir la perdida del cabello, combate la caspa y su aroma tiene efecto relajante y anti-estrés.",
+        "categoryId": 2,
+        "stock": 10
+      },
+      {
+        "id": 10,
+        "name": "Shampoo para cabello seco (80 gr)",
+        "price": 23,
+        "description": "Nuestro shampoo para cabello seco contienen aceites que nutren, reparan las puntas quebradas, hidratan y gracias a su aporte de vitamina E, lo hace menos quebradizo. Es ideal para pieles sensibles. Además, estimula el crecimiento del cabello, fortalecimiento de los folículos pilosos y evitan el frizz. Contiene aceite esencial a naranja que, hidrata el cabello, elimina impurezas, aporta brillo y suavidad",
+        "categoryId": 2,
+        "stock": 10
+      },
+      {
+        "id": 11,
+        "name": "Shampoo para cabello mixto (80 gr)",
+        "price": 23,
+        "description": "Nuestro shampoo para cabello mixto contienen aceites que hidratan y nutren el cabello; reparan las puntas quebradas, gracias a su aporte de vitamina E, lo hace menos quebradizo. Limpia a profundidad la raíz e hidrata las puntas y evitando el frizz. Contiene aceite esencial de limón, que ayuda a eliminar el exceso de grasa en el cabelludo, regula el pH además, es un energizante natural, mejora el estado de animo y calma la ansiedad.",
+        "categoryId": 2,
+        "stock": 10
+      },
+      {
+        "id": 12,
+        "name": "Shampoo détox de carbón activado (80 gr)",
+        "price": 23,
+        "description": "El carbón activado limpia a profundidad el cuero cabelludo, elimina las toxinas, además, ayuda con algunas afecciones del cabello como la caspa. Asimismo, da volumen y brillo al cabello. Contiene aceites que estimulan el crecimiento del cabello y evitan la caída. Contiene aceite esencial a lavanda, que ayuda a reducir la perdida del cabello, combate la caspa y su aroma tiene efecto relajante y anti - estrés.",
+        "categoryId": 2,
+        "stock": 10
+      },
+      {
+        "id": 13,
+        "name": "Shampoo anti - caída (80 gr)",
+        "price": 23,
+        "description": "Formulado con aceites que fortalecen y nutren las raíces. Estimulan el crecimiento del cabello. Sus componentes ayudan al crecimiento de cabello mas grueso y fuerte ya que contienen omega 3. Contiene aceite esencial de romero y lavanda que estimulan el crecimiento de cabello y evita la caída",
+        "categoryId": 2,
+        "stock": 10
+      },
+      {
+        "id": 14,
+        "name": "Shampoo para cabello claro (80 gr)",
+        "price": 23,
+        "description": "Formulado con aceites que fortalecen y nutren las raíces. Estimulan el crecimiento del cabello. Contiene miel de abeja y extracto de manzanilla que darán a tu cabello claro unos lindos reflejos naturales evitando el oscurecimiento. Contiene aceite esencial de limón que refuerza la acción del extracto de la manzanilla para mantener tu cabello claro, además, refresca y revitaliza tu cabello, aportando brillo y suavidad.",
+        "categoryId": 2,
+        "stock": 10
+      },
+      {
+        "id": 15,
+        "name": "Acondicionador de Manteca de Karité (75 gr)",
+        "price": 23,
+        "description": "La manteca de karité tiene muchos beneficios sobre el cabello como hidratar, reparar, acondicionar, sirve muy bien sobre los rizos ya que tienen tendencia a ser secos. Nutre y estimula el crecimiento del cabello gracias a su gran cantidad de vitaminas y ácidos grasos naturales.",
+        "categoryId": 3,
+        "stock": 10
+      },
+      {
+        "id": 16,
+        "name": "Acondicionador de manteca de cacao (80 gr)",
+        "price": 23,
+        "description": "La manteca de cacao protege al cabello del daño, hidrata, es alto en vitamina E, lo que restaura y da elasticidad al cabello. Aporta brillo y suavidad al cabello y además disminuye el frizz. Evita la caída del cabello a causa de roturas y aporta volumen a los cabellos mas finos.",
         "categoryId": 3,
         "stock": 10
       }

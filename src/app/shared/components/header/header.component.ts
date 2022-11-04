@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   template: `
   <mat-toolbar color="primary">
     <a [routerLink]="['/']"> 
-   <span class="spacer">My store Kjmz</span>     
+   <span class="spacer">Lotus</span>     
     </a>
   <app-cart class="cart" (click)="goToCheckout()"></app-cart>
 </mat-toolbar>
