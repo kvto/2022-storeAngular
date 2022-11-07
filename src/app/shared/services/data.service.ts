@@ -22,6 +22,6 @@ export class DataService{
     }
 
     saveDetailsOrder(details:DetailsOrder):Observable<DetailsOrder>{
-        return this.http.post<DetailsOrder>(`${this.apiURL}/datailsOrders`, details);
+        return this.http.post<DetailsOrder>(`${this.apiURL}/detailsOrders`, details);
     }
 }

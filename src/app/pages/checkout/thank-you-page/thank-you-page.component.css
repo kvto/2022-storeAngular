@@ -6,9 +6,9 @@ margin: 0 10%;
 height: 80%;
 flex-direction: column;
 margin-top: 2rem;
-
+}
 .title{
-font-sive: 5rem;
+font-size: 5rem;
 }
 
 .content{
