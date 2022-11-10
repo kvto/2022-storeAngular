@@ -16,7 +16,7 @@ import { ProductService } from '../products/services/product.service';
 })
 export class CheckoutComponent implements OnInit {
   model = {
-    name: 'Dominicode',
+    name: '',
     store: '',
     shippingAddress: '',
     city: ''

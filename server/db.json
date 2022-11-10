@@ -57,7 +57,7 @@
       "price": 9,
       "description": "Nuestro jabón de hierbaluisa tiene propiedades antiinflamatorias, relajantes, antisépticas y antibacterianas. Ayuda con los problemas de acné y las infecciones de la piel.",
       "categoryId": 1,
-      "stock": 1
+      "stock": -7
     },
     {
       "id": 2,
@@ -65,7 +65,7 @@
       "price": 9,
       "description": "Nuestro jabón de harina de arroz con bergamota. Es ideal para regenerar la piel, eliminar manchas, rejuvenece y embellece el cutis. A su vez, el aceite esencial de bergamota ayuda a eliminar el exceso de grasa y prevenir las arrugas.",
       "categoryId": 1,
-      "stock": 8
+      "stock": 4
     },
     {
       "id": 3,
