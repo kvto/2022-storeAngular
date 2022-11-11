@@ -57,7 +57,7 @@
       "price": 9,
       "description": "Nuestro jabón de hierbaluisa tiene propiedades antiinflamatorias, relajantes, antisépticas y antibacterianas. Ayuda con los problemas de acné y las infecciones de la piel.",
       "categoryId": 1,
-      "stock": -7
+      "stock": -8
     },
     {
       "id": 2,
@@ -65,7 +65,7 @@
       "price": 9,
       "description": "Nuestro jabón de harina de arroz con bergamota. Es ideal para regenerar la piel, eliminar manchas, rejuvenece y embellece el cutis. A su vez, el aceite esencial de bergamota ayuda a eliminar el exceso de grasa y prevenir las arrugas.",
       "categoryId": 1,
-      "stock": 4
+      "stock": 1
     },
     {
       "id": 3,
@@ -235,6 +235,19 @@
       "date": "6/11/2022",
       "isDelivery": false,
       "id": 5
+    },
+    {
+      "name": "kevin",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "10/11/2022",
+      "isDelivery": false,
+      "id": 6
     }
   ],
   "detailsOrders": [
@@ -253,6 +266,11 @@
       "details": [],
       "orderId": 5,
       "id": 3
+    },
+    {
+      "details": [],
+      "orderId": 6,
+      "id": 4
     }
   ]
 }
