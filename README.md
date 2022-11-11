@@ -1,3 +1,6 @@
+# Welcome to the virtual Page for the purchase of Handmade Soaps, Shampoos and Conditioners! 🧼🧼
+An application whose purpose is to show all the items in the inventory to users so that they can choose the items to their preferences and make their respective payment
+
 ## More info about me: 
 <div id="badges" >
 Ing. Kevin J. Montero Zea 
