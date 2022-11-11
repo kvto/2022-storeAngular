@@ -1,23 +1,27 @@
-# Store
+## More info about me: 
+<div id="badges" >
+Ing. Kevin J. Montero Zea 
+</div>
+<div id="badges" >
+CE: 004712881 🆔
+</div>
+<div id="badges" >
++51-913-695-382 📱
+</div>
+<div id="badges" >
+<a href="https://www.linkedin.com/in/kevin913montero/">
+    LinkedIn 👨‍🦰
+  </a>
+</div>
+<div id="badges" >
+<a href="https://portfoliokjmz.netlify.app/">
+    Portfolio 💼
+  </a>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Creamos nuestro server
-
-en el archivo db.json cargamos toda la informacion
-
-## Creamos nuestro tolbar 
-
-Mediante el uso de Angular Material y se coloca en el template del componente header (header.componet.ts)
-
-## Creamos rutas 
-
-Utilizando 
+<p align="center">
+<img height="50" src="src/app/img/logo2.png" />
+<img height="50" src="src/app/img/logo3.png" />
+<img height="50" src="src/app/img/Sin título.png" />
+</p>
